@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #03385e; */
+    background-image: url('images/bg.png'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quiz-container {
+    background: white;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 660px;
+    width: 450px;
+    text-align: center;
+}
+
+header {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+#images {
+    width: 200px;
+    height: 200px;
+    object-fit: min-content;
+    border-radius: 100%;
+    margin-top: 20px;
+
+}
+
+/* #logo {
+    width: 50px;
+    margin-right: 10px;
+} */
+
+#progress-bar-container {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 10px;
+    margin-bottom: 50px;
+}
+
+#progress-bar {
+    background-color: #28a745;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#options button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#options button:hover {
+    background-color: #0056b3;
+}
+
+#next-btn {
+    margin-top: 5px;
+    margin-left: 15px;
+    padding: 10px 40px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#timer {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Progress Bar Container */
+#progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 10px 0;
+
+}
+
+/* Progress Bar */
+#progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: #d78a32;
+    transition: width 0.3s ease;
+}
+
+
+#submit-btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#home{
+    margin-bottom: 760px;
+    
+    /* margin-right: 600px; */
+    
+}
+a {
+    color: #d78a32; /* You can use color names, hex, rgb, etc. */
+    font-weight: bolder;
+}

@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #03385e; */
+    background-image: url('images/bg.png'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+    top: 10px; /* Adjust this value to control the vertical position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust to perfectly center the text */
+    font-size: 24px; /* Adjust font size as needed */
+    color: rgb(255, 252, 252); /* Set the text color */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+
+  
+    #container {
+    background: white;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 150px;
+    margin-left: 250px;
+    cursor: pointer;
+    background-color: #de7b19;
+    color: white;
+    transition: background-color 0.3s;
+}
+a {
+    color: rgb(9, 9, 9); /* You can use color names, hex, rgb, etc. */
+    font-weight: bolder;
+}
+#container hover {
+    background-color: #0056b3;
+}
+
+#text {
+    background: white;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 35px;
+    width: 650px;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 120px;
+    cursor: pointer;
+    
+    color: #de7b19;
+    transition: background-color 0.3s;
+}
+
+#text-container {
+    position: absolute;
+    top: 150px; /* Adjust this value to control the vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 650px; /* Adjust width as needed */
+    margin: 0 auto; /* Center within its own container */
+}
+
+
+/* #options button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#options button:hover {
+    background-color: #0056b3;
+} */
+
+
+#fcont {
+
+  color: white; /* White text for contrast */
+  text-align: center; /* Center the text */
+  padding: 10px 20px; /* Add some space inside the footer */
+  font-size: 14px; /* Adjust font size */
+  font-family: Arial, sans-serif; /* Set a clean font */
+  margin-top: auto; /* Push the footer to the bottom of the page */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+}
+
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: -300px;
+    margin-right: -300px;
+  }
+  .feature:hover{
+    transform: scale(1.09);
+  }
+  .feature {
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor:  pointer;
+  }
+
+    /* Mobile view menu (hidden by default) */
+.show-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 768px) {
+    .nav_links {
+      display: none; /* Hide menu initially */
+    }
+  
+    .bar_icon {
+      display: block; /* Show hamburger icon on small screens */
+    }
+  }
+
+/* #images {
+    width: 100px;
+    height: 100px;
+    object-fit: min-content;
+    border-radius: 100%;
+    margin-bottom: 550px;
+
+
+} */
+
+/* #quiz-container {
+    background: white;
+    padding: 10px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 600px;
+} */
